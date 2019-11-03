@@ -1,0 +1,28 @@
+Bom dia,
+
+Segue abaixo especificações do arquivo para registro cartorário de CPFs.
+
+Especificações do layout:
+O arquivo deve ser no formato texto (.txt), a primeira linha deve conter o cabeçalho, que irei passar logo abaixo, os campos deverão ser separados por tab(tabulação), texto todo em MAIÚSCULO no padrão UTF-8, sem acentuação nem caracteres especiais.
+
+Campos do cabeçalho do arquivo seguem abaixo:
+   id -> correspondente ao numero de controle caso a empresa use, senão, repetir o campo cpf_cnpj_destinatario,
+   apresentante -> Razão Social da empresa(Ex. Fulltime... LTDA),
+   nome_remetente -> Empresa que está solicitando o registro e envio do aviso/carta(Ex. Banco Fulano de Tal),
+   cnpj_remetente -> CNPJ da mesma anterior, sem máscara(apenas números Ex(00111222000133)),
+   destinatario -> Nome do Cliente que será devidamente registrado,
+   cpf_cnpj_destinatario -> CPF/CNPJ do Cliente, sem máscara(apenas números Ex(00011122233)),
+   endereco -> Endereço do Cliente,
+   cidade -> Cidade do Cliente,
+   uf -> Estado do Cliente,
+   cep -> CEP do Cliente(apenas números Ex(0012345)),
+   contrato -> Número do contrato ao qual tem a relação desse registro do Cliente com o Remetente,
+   data_vencimento -> caso seja informado a baixa será feita automaticamente 3 dias úteis após esta data.(formato dd/mm/aaaa Ex(09/03/2018)).
+
+    Em anexo segue arquivo demonstrativo, se precisar pode enviar arquivo(s) para homologação do layout.
+
+   Qualquer dúvida estou à disposição por esse canal ou pelo Whats (47) 9.9266-2121
+
+
+Att
+   Douglas Poma
